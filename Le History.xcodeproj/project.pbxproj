@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0116ACBB2B0D42390024F58E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0116ACBA2B0D42390024F58E /* README.md */; };
 		01C40E212B06B05B00B253A1 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C40E202B06B05B00B253A1 /* Question.swift */; };
 		01C40E232B06CD7400B253A1 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C40E222B06CD7400B253A1 /* ChoiceTextView.swift */; };
 		01CDC26F2B008DE300A80D95 /* Le_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CDC26E2B008DE300A80D95 /* Le_HistoryApp.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0116ACBA2B0D42390024F58E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		01C40E202B06B05B00B253A1 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		01C40E222B06CD7400B253A1 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		01CDC26B2B008DE300A80D95 /* Le History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Le History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +63,7 @@
 				01C40E222B06CD7400B253A1 /* ChoiceTextView.swift */,
 				01CDC2722B008DE500A80D95 /* Assets.xcassets */,
 				01CDC2742B008DE500A80D95 /* Preview Content */,
+				0116ACBA2B0D42390024F58E /* README.md */,
 			);
 			path = "Le History";
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0116ACBB2B0D42390024F58E /* README.md in Resources */,
 				01CDC2762B008DE500A80D95 /* Preview Assets.xcassets in Resources */,
 				01CDC2732B008DE500A80D95 /* Assets.xcassets in Resources */,
 			);
