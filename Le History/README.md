@@ -4,7 +4,7 @@ This is my first attempt at making an application in Swift. I will build a basic
 
 ## Wireframe
 
-![wireframe](assets/quizWireframe.png)
+![wireframe](https://github.com/rhettb253/le-history/blob/main/Le%20History/Assets.xcassets/quizWireframe.imageset/quizWireframe.png)
 
 ## Run Locally
 
