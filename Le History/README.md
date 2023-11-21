@@ -4,4 +4,4 @@ This is my first attempt at making an application in Swift. I will build a basic
 
 ## Wireframe
 
-![wireframe](assets/quizWireframe)
+![wireframe](assets/quizWireframe.png)
