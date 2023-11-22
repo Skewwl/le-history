@@ -24,5 +24,4 @@ struct ChoiceTextView: View {
 
 #Preview {
     ChoiceTextView(choiceText: "Choice Text!")
-    
 }

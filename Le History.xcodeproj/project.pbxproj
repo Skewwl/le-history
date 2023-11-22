@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0116ACBB2B0D42390024F58E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0116ACBA2B0D42390024F58E /* README.md */; };
+		0116ACBD2B0DB26B0024F58E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0116ACBC2B0DB26B0024F58E /* Game.swift */; };
 		01C40E212B06B05B00B253A1 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C40E202B06B05B00B253A1 /* Question.swift */; };
 		01C40E232B06CD7400B253A1 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C40E222B06CD7400B253A1 /* ChoiceTextView.swift */; };
 		01CDC26F2B008DE300A80D95 /* Le_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CDC26E2B008DE300A80D95 /* Le_HistoryApp.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		0116ACBA2B0D42390024F58E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0116ACBC2B0DB26B0024F58E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		01C40E202B06B05B00B253A1 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		01C40E222B06CD7400B253A1 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		01CDC26B2B008DE300A80D95 /* Le History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Le History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +40,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0116ACBE2B0EAF3D0024F58E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01C40E202B06B05B00B253A1 /* Question.swift */,
+				0116ACBC2B0DB26B0024F58E /* Game.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0116ACBF2B0EAFA60024F58E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01CDC2702B008DE300A80D95 /* ContentView.swift */,
+				01C40E222B06CD7400B253A1 /* ChoiceTextView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		01CDC2622B008DE300A80D95 = {
 			isa = PBXGroup;
 			children = (
@@ -57,10 +77,9 @@
 		01CDC26D2B008DE300A80D95 /* Le History */ = {
 			isa = PBXGroup;
 			children = (
+				0116ACBF2B0EAFA60024F58E /* Views */,
+				0116ACBE2B0EAF3D0024F58E /* Models */,
 				01CDC26E2B008DE300A80D95 /* Le_HistoryApp.swift */,
-				01CDC2702B008DE300A80D95 /* ContentView.swift */,
-				01C40E202B06B05B00B253A1 /* Question.swift */,
-				01C40E222B06CD7400B253A1 /* ChoiceTextView.swift */,
 				01CDC2722B008DE500A80D95 /* Assets.xcassets */,
 				01CDC2742B008DE500A80D95 /* Preview Content */,
 				0116ACBA2B0D42390024F58E /* README.md */,
@@ -148,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01C40E212B06B05B00B253A1 /* Question.swift in Sources */,
+				0116ACBD2B0DB26B0024F58E /* Game.swift in Sources */,
 				01CDC2712B008DE300A80D95 /* ContentView.swift in Sources */,
 				01C40E232B06CD7400B253A1 /* ChoiceTextView.swift in Sources */,
 				01CDC26F2B008DE300A80D95 /* Le_HistoryApp.swift in Sources */,
